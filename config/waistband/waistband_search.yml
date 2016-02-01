@@ -1,0 +1,9 @@
+development:
+    stringify: false
+    settings:
+        index:
+            number_of_shards: 4
+    mappings:
+        event:
+            _source:
+                includes: ["*"]
